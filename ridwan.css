@@ -1,0 +1,56 @@
+body,html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+li{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+	
+}
+#head{
+	font-style: bold;
+	font-family: arial;
+	font-size: 20px;
+	color:red;
+}
+.body{
+	background-image:url(images/Screenshot_20181021-205804.png);
+	background-repeat: no-repeat;
+}
+.logo{
+	height:50px;
+	width: 80px;
+}
+nav{
+	background-color: blue;
+	padding: 10px;
+}
+nav li a{
+	color: yellow;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav li a:hover{
+	color: white;
+}
+#contact-slide{
+	margin-left: -20px;
+
+}
+.carousel-inner img{
+width: 100%;
+height:100%;
+}
+aside img{
+	width: 100%;
+	height:100%;
+}
+@media screen and (max-width: 576px){
+	#contact-slide{
+		margin:0px;
+
+	  }
+}
